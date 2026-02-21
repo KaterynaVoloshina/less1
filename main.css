@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    padding: 78px 140px 0 140px;
+    background: #EEEEEE;
+}
+main img {
+    width: 760px;
+    height: 431px;
+}
+main article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+}
+main h1 {
+    width: 500px;
+}
+main p {
+    width: 400px;
+    margin-bottom: 13px;
+}
