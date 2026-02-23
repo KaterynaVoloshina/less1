@@ -1,0 +1,65 @@
+.first-scrin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EEEEEE;
+  height: 250px;
+}
+.menu li:nth-of-type(3)::after {
+    content: "";
+    width: 73px;
+    height: 2px;
+    background: red;
+    display: block;
+    flex-shrink: 0;
+    margin: 6px auto 0;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 140px;
+    gap: 141px;
+}
+aside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap:48px;
+}
+.price {
+    display: flex;
+    flex-direction: column;
+}
+.price-point {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 80px;
+    background: #EEEEEE;
+}
+.price-point-longline {
+    position: absolute;
+    width: 205px;
+    height: 2px;
+    background: #D7DCDF;
+}
+.price-point-shortline {
+    position: absolute;
+    width: 138px;
+    height: 2px;
+    background: #00CA74;
+}
+.circl {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px 0px  #00000026;
+    left: 18px;
+}
+.shablon {
+    flex: 2;
+}

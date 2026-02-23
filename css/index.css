@@ -1,3 +1,21 @@
+/*Перший екран*/
+.first-scrin {
+    display: flex;
+    padding: 78px 140px 0 140px;
+    background: #EEEEEE;
+}
+.main-img {
+    width: 760px;
+    height: 431px;
+}
+.first-scrin_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+}
+
 .content {
     background: #FFFFFF;
     display: flex;
@@ -10,7 +28,7 @@
      justify-content: space-between;
      gap: 100px;
 }
-.product-card {
+.product_card {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -22,31 +40,26 @@
     justify-content: space-between;
     gap: 140px;
 }
-.about-text {
+.about_text {
     flex: 2;
 }
-.about-rating {
+.about_rating {
     flex: 1;
 }
 
-.about-text p:first-of-type {
-    padding-top: 32px;
-    padding-bottom: 40px;
-}
-.about-text ul {
+.about_list {
     list-style: none;
     padding: 0;
     margin: 0;
-    padding-top: 23px;
 }
-.about-text li {
+.list-text {
     display: flex;
     align-items: center;
     gap: 7px;
     margin-bottom: 40px;
 }
 
-.about-text li::before {
+.list-text::before {
     content: "";
     width: 25px;
     height: 2px;
@@ -54,29 +67,37 @@
     display: inline-block;
     flex-shrink: 0;
 }
-.about-rating-numbers {
+.about_numbers {
     display: flex;
     justify-content: space-between;
     padding-top: 34px;
     gap: 22px;
 }
-.about-rating-numbers span {
+.numbers {
     font-size: 45px;
     font-weight: 700;
     line-height: 64px;
 }
-.section-logo-bottom {
+.worked-with {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     gap: 45px;
 }
-.section-logo-bottom hr {
-    size: 2px;
-    color: #EEEEEE;
-    height: 52px;
+.vert-line {
+  width: 2px;
+  height: 52px;
+  background: #EEEEEE;
+  border: none;
+  margin: 0 16px;
 }
-.section-logo-bottom img {
+hr {
+  border: none;
+  height: 2px;
+  background-color: #EEEEEE;
+  margin: 24px 0;
+}
+.img-worked  {
     max-width: 209px;
     
 }
