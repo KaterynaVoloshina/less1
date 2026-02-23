@@ -12,12 +12,12 @@
   </head>
   <body>
     <header>
-      <a href="/" class="logo"><img src="icon/nerds-logo.svg" alt="логотип"></a>
+      <a href="index.html" class="logo"><img src="icon/nerds-logo.svg" alt="логотип"></a>
       <nav>
         <ul class="menu">
-          <li><a href="#">Студия</a></li>
+          <li><a href="index.html">Студия</a></li>
           <li><a href="#">Клиенты</a></li>
-          <li><a href="#">Магазин</a></li>
+          <li class="menu-chek"><a href="catalog.html">Магазин</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
       </nav>
@@ -29,11 +29,10 @@
 
     <section class="first-scrin"><h1>Магазин готовых шаблонов</h1></section>
     
-    <main class="content">
+    <main class="content-catalog">
         
       <aside>
             <h4>Стоимость:</h4>
-
             <div class="price">
                 <div class="price_point">
                   <div class="longline"><div class="shortline"><div class="circl"></div><div class="circl"></div></div></div>
@@ -51,7 +50,6 @@
             </div>
             
             <h4>Сетка:</h4>
-
             <div class="layout">
               <label>
                 <input class="layout_choice" type="radio" name="adaptive" checked>
@@ -68,7 +66,6 @@
             </div>
 
              <h4>Особенности:</h4>
-
             <div class="layout">
               <label>
                 <input class="layout_choice"  type="checkbox" name="slider" checked>
@@ -97,10 +94,58 @@
 
       </aside>
         
-      <section class="shablon">ee</section>
+      <section class="shablon">
+        <div class="shablon_sorting">
+        <span class="text-sorting-bold">Сортировать:</span>
+        <div class="sorting-by">
+          <span class="text-sorting-bold">По цене</span>
+          <span>По названию</span>
+          <span>По типу</span>
+          <img class="arrow-direction" src="icon/icon-up-dir.png" alt="стрілка вгору">
+          <img class="arrow-direction" src="icon/icon-down-dir.png" alt="стрілка вниз">
+        </div>
+        </div>
+        <section class="shablon_work">
+          <img class="present-work" src="images/barbershop.png" alt="barbershop">
+          <img class="present-work" src="images/craft-kvass.png" alt="craft kvass">
+          <img class="present-work" src="images/knitted-baskets.png" alt="knitted baskets">
+          <img class="present-work" src="images/gadget-store.png" alt="gadget store">
+          <img class="present-work" src="images/travel-agency.png" alt="travel agency">
+          <img class="present-work" src="images/online-school.png" alt="online school">
+        </section>
+
+        <div class="shablon_nav">
+          <div class="pages-numbers-chek">1</div>
+          <div class="pages-numbers">2</div>
+          <div class="pages-numbers">3</div>
+          <div class="pages-numbers"><span class="text-sorting-bold">Следующая</span></div>
+        </div>
+      
+    </section>
    
     </main>
-
+    <footer>
+      <section class="footer-top">
+        <article class="footer-top_text">
+          <h4>NЁRDS Design Studio</h4>
+          <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 </p>
+          <p>тел. +7 (812) 275-75-75</p>
+          <button class="button-all">Напишите нам</button>
+        </article>
+        <img src="images/map-marker.png" alt="геолокация">
+      </section>
+      <article class="footer-bottom">
+        <div class="social-icon">
+          <img src="icon/vkontakte.png" alt="">
+          <img src="icon/facebook.png" alt="">
+          <img src="icon/insta.png" alt="">
+        </div>
+        <div class="footer-bottom_text">
+          <h3>Давайте дружить, это выгодно!</h3>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+      </article>
+    </footer>
 
   </body>
 </html>

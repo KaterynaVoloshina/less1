@@ -4,6 +4,15 @@ body {
     background: #fff;
     font-family: Roboto, sans-serif;
 }
+.menu-chek::after{
+    content: "";
+    width: 73px;
+    height: 2px;
+    background: red;
+    display: block;
+    flex-shrink: 0;
+    margin: 6px auto 0;
+}
 a {
     text-decoration: none;
 }
