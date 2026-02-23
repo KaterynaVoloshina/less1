@@ -24,42 +24,80 @@ aside {
     flex: 1;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap:48px;
 }
 .price {
     display: flex;
     flex-direction: column;
+    gap:14px;
 }
-.price-point {
+.price_point {
     display: flex;
-    position: relative;
     justify-content: center;
     align-items: center;
     width: 260px;
     height: 80px;
     background: #EEEEEE;
+    border-radius: 3px;
 }
-.price-point-longline {
-    position: absolute;
+.longline {
+    position: relative;
     width: 205px;
     height: 2px;
     background: #D7DCDF;
 }
-.price-point-shortline {
+.shortline {
     position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 138px;
     height: 2px;
     background: #00CA74;
 }
 .circl {
-    position: absolute;
     width: 20px;
     height: 20px;
     border-radius: 50px;
     background: #FFFFFF;
     box-shadow: 0px 2px 1px 0px  #00000026;
-    left: 18px;
 }
+.price_input {
+    display: flex;
+    gap: 32px;
+}
+.text-for-characteristic {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.cell-price {
+    width: 80px;
+    height: 38px;
+    border-radius: 3px;
+    background: #EEEEEE;
+    margin-left: 11px;
+    text-align: center;
+}
+.layout {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.text-aside {
+    font-size: 16px;
+    color: #283136;
+}
+.layout_choice {
+    transform: scale(1.4);  
+    margin-right: 8px;     
+    cursor: pointer;
+}
+
+
 .shablon {
     flex: 2;
 }

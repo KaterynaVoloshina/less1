@@ -68,3 +68,8 @@ p {
 .button-yellow {
     background: #EFC849;
 }
+.button-grey {
+    background: #EEEEEE;
+    color: #000000;
+    width: 260px;
+}
