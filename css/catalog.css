@@ -5,11 +5,12 @@
   background: #EEEEEE;
   height: 250px;
 }
+
 .content-catalog {
-    display: flex;
-    justify-content: space-between;
-    padding: 55px 140px;
-    gap: 141px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 55px 0;
 }
 aside {
     flex: 1;
