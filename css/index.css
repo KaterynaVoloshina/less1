@@ -17,11 +17,11 @@
 }
 
 .content-index {
-    background: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    padding: 80px 140px 80px 140px;
-    gap: 80px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 80px 0;
 }
 .product {
      display: flex;
